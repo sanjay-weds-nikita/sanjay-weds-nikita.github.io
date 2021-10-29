@@ -425,12 +425,14 @@ button:focus{
 }
 
 .lbox-details h2{
-	font-size: 48px;
+	font-size: 32px;
+	font-family: 'Berkshire Swash', cursive;
 	color: #ffffff;
-	font-weight: 300;
+	font-weight: 200;
 	position: relative;
 	z-index: 3;
 }
+
 .lbox-details p{
 	color: #ffffff;
 	position: relative;
@@ -567,6 +569,7 @@ button:focus{
 }
 .title-box h2 span{
 	color: #881228;
+	font-family: 'Sedgwick Ave Display', cursive;
 	text-decoration: underline;
 }
 .about-main-info h2{
