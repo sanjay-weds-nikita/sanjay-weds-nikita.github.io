@@ -2,11 +2,11 @@
 <html lang="en"><!-- Basic -->
 <head>
 	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
- 
+
      <!-- Site Metas -->
     <title>Sanjay & Nikita</title>
     <meta name="keywords" content="Sanjay Rawat, Nikita Asnani, Wedding, Marriage, Celebration, RSVP">
@@ -27,7 +27,7 @@
     <!-- Pogo Slider CSS -->
     <link rel="stylesheet" href="css/pogo-slider.min.css">
 	<!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
@@ -51,28 +51,35 @@
 
 	<!-- Start header -->
 	<header class="top-header">
-		<nav class="navbar header-nav navbar-expand-lg">
+	    <nav class="navbar header-nav navbar-expand-lg">
             <div class="container">
-				<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-					<span></span>
-					<span></span>
-					<span></span>
-				</button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#about">About Us</a></li>
-                        <li><a class="nav-link" href="#story">Story</a></li>
-                        <li><a class="nav-link" href="#family">Family</a></li>
-                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
-						<li><a class="nav-link" href="#wedding">Wedding</a></li>
-                        <li><a class="nav-link" href="#events">Events</a></li>
-						<li><a class="nav-link" href="#contact">Contact</a></li>
+                <div class="d-flex flex-grow-1">
+                    <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                    <a class="navbar-brand mx-0" href="#">
+                        <img src="images/logo.png" class="navbar-brand-image" alt="Sanjay & Nikita">
+                    </a>
+                    <div class="w-100 text-right">
+<!--                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                            <span class="navbar-toggler-icon"></span>-->
+<!--                            <span class="navbar-toggler-icon"></span>-->
+<!--                            <span class="navbar-toggler-icon"></span>-->
+<!--                        </button>-->
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse flex-grow-1" id="navbar-wd">
+                    <ul class="navbar-nav ml-auto flex-nowrap">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#story">Story</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#family">Family</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#wedding">Wedding</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
-        </nav>
+	    </nav>
 	</header>
 	<!-- End header -->
 
@@ -467,12 +474,12 @@
                     </div>
                 </div>
             </div>
-			
+
 		</div>
 	</div>
-	
+
 	<!-- End Wedding -->
-	
+
 	<!-- Start Events -->
 	<div id="events" class="events-box">
 		<div class="container">
@@ -519,7 +526,7 @@
 		</div>
 	</div>
 	<!-- End Events -->
-	
+
 	<!-- Start Contact -->
 	<div id="contact" class="contact-box">
 		<div class="container">
@@ -540,13 +547,13 @@
 							<div class="form-group">
 								<input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
 								<div class="help-block with-errors"></div>
-							</div>                                 
+							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
 								<input type="email" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
 								<div class="help-block with-errors"></div>
-							</div> 
+							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
@@ -559,7 +566,7 @@
 								  <option value="5">5</option>
 								</select>
 								<div class="help-block with-errors"></div>
-							</div> 
+							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
@@ -569,20 +576,20 @@
 								  <option value="Sorry can't make it">Sorry can't make it</option>
 								</select>
 								<div class="help-block with-errors"></div>
-							</div> 
+							</div>
 						</div>
 						<div class="col-md-12">
-							<div class="form-group"> 
+							<div class="form-group">
 								<textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
 								<div class="help-block with-errors"></div>
 							</div>
 							<div class="submit-button text-center">
 								<button class="btn btn-common" id="submit" type="submit">Send Message</button>
-								<div id="msgSubmit" class="h3 text-center hidden"></div> 
-								<div class="clearfix"></div> 
+								<div id="msgSubmit" class="h3 text-center hidden"></div>
+								<div class="clearfix"></div>
 							</div>
 						</div>
-					  </div>            
+					  </div>
 					</form>
 				  </div>
 				</div>
@@ -590,7 +597,7 @@
 		</div>
 	</div>
 	<!-- End Contact -->
-	
+
 	<!-- Start Footer -->
 	<footer class="footer-box">
 		<div class="container">
@@ -609,11 +616,11 @@
 	<script src="js/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script> 
+    <script src="js/jquery.pogo-slider.min.js"></script>
 	<script src="js/slider-index.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/responsiveslides.min.js"></script>
-    <script src="js/timeLine.min.js"></script>	
+    <script src="js/timeLine.min.js"></script>
 	<script src="js/form-validator.min.js"></script>
     <script src="js/contact-form-script.js"></script>
     <script src="js/custom.js"></script>
