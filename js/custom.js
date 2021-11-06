@@ -113,7 +113,7 @@
     Countdown Clock
     ................................................. */
 	function makeTimer() {
-		let endTime = new Date("15 November 2021 10:00:00 GMT+05:30");
+		let endTime = new Date("15 November 2021 18:00:00 GMT+05:30");
 		endTime = (Date.parse(endTime) / 1000);
 
 		let now = new Date();
