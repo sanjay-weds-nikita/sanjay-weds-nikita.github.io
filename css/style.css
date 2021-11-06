@@ -458,7 +458,7 @@ button:focus{
 }
 
 .countdown{
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-img.jpg);
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -555,7 +555,7 @@ button:focus{
 
 .about-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-img.jpg);
 }
 
 .title-box{
@@ -730,7 +730,7 @@ button:focus{
 
 .family-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-img.jpg);
 }
 
 .single-team-member {
@@ -872,7 +872,7 @@ button:focus{
 
 .wedding-box{
 	padding: 70px 0px;
-	background: url(../images/ptn-bg.jpg);
+	background: url(../images/bg-img.jpg);
 }
 
 .serviceBox{
