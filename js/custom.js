@@ -6,9 +6,9 @@
     ................................................. */
 	
 	$(window).on('load', function() { 
-		$('.preloader').delay(650).fadeOut('slow');
-		$('#preloader').delay(650).fadeOut('slow');
-		$('body').delay(550).css({'overflow':'visible'});
+		$('.preloader').delay(550).fadeOut('slow');
+		$('#preloader').delay(550).fadeOut('slow');
+		$('body').delay(450).css({'overflow':'visible'});
 	});
     	
 	/* ..............................................
